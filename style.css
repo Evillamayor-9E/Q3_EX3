@@ -1,0 +1,20 @@
+form {
+	background-color: #a9927d;
+	color: #a9927d;
+	padding: 30px;
+}
+
+label {
+	background-color: #5e503f;
+	padding: 5px;
+}
+
+input {
+	background-color: #5e503f;
+	color: whitesmoke;
+	padding: 5px;
+}
+
+p {
+	color: whitesmoke;
+}

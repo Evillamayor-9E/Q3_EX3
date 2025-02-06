@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Exercise 3</title>
+</head>
+<body>
+
+	<form>
+		<label>Enter Name:</label> 
+			<input type="Name" id="name">
+				<p id="greet">Hello!</p>
+			<button type="button"
+					class="btn btn-primary" 
+					onclick= "greet(name)"
+					>Greet</button>
+
+			<center><button type="button" onClick="window.location.reload()">
+	 REFRESH
+	</button></center>
+
+	</form>
+
+	<script>
+		 function greet(name){
+			var name = document.getElementById('name').value;
+		 	document.getElementById('greet').innerHTML=
+		 	'Hello, ' + name + '!'
+		 }
+	</script>
+</body>
+</html>
